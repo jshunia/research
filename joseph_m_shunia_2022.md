@@ -1,11 +1,11 @@
-Author: Joseph M. Shunia
-Date: June 9, 2022
+# Author: Joseph M. Shunia
 
+## About
 Input string encoding: ASCII
 Hash algorithm: Blake2b 256
 Hash string encoding: Hex
 
-Hashes:
+## Hashes (June 9 2022):
 
 104f968c9261c61f96ba47049c723ef1c3b9cec48f2ae7a0628d45a5c4de33d0
 
