@@ -1,9 +1,9 @@
 # Author: Joseph M. Shunia
 
 ## About
-Input string encoding: ASCII
-Hash algorithm: Blake2b 256
-Hash string encoding: Hex
+* Input string encoding: ASCII
+* Hash algorithm: Blake2b 256
+* Hash string encoding: Hex
 
 ## Hashes (June 9 2022):
 
