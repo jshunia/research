@@ -1,0 +1,2 @@
+binomial(2 n, n) = (4^n cos(i n log(2))^(2 n)) + tan^(-1)(cot((4^n cos(i n log(2))^(2 n)) π)) / π - 1/2) - 4^n (cos(i n log(2))^(2 n) + tan^(-1)(cot(cos(i n log(2))^(2 n) π)) / π - 1/2), -Joseph M. Shunia, Jan 28 2023.
+binomial(2 n, n) = (4^n cosh(n log(2))^(2 n)) + tan^(-1)(cot((4^n cosh(n log(2))^(2 n)) π)) / π - 1/2) - 4^n (cosh(n log(2))^(2 n) + tan^(-1)(cot(cosh(n log(2))^(2 n) π)) / π - 1/2), -Joseph M. Shunia, Jan 28 2023.
