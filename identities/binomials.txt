@@ -10,4 +10,6 @@ binomial(n, k) = floor(exp(n*log(1+2^n)-k*n*log(2))) - 2^n * floor(exp(n*log(1+2
 
 binomial(n, k) = (2^n (π + 2 i log(i exp((i (-4 (1+2^n)^n + 2^(n k)) π)/(2 2^(n k) 2^n)) (i exp(-(2 i (1+2^n)^n π)/2^(n k)))^(-1/2^n))))/(4 π), -Joseph M. Shunia, Aug 13 2023
 
-binomial(n, k) = floor((2^n (π + 2 i log(i exp(-(2 i ((1+2^n)^n/2^(n k)) π)/2^n))))/(4 π)), -Joseph M. Shunia, Aug 13 2023
+binomial(n, k) = floor((2^n (π + 2 i log(i exp(-(2 i ((1 + 2^n)^n/2^(n k)) π) / 2^n))))/(4 π)), -Joseph M. Shunia, Aug 13 2023
+
+binomial(2*n, n) = floor((4^n (π + 2 i log(i exp(-(2 i ((1 + 4^n)^(2 n) / 4^(n n)) π) / 4^n))))/(4 π)), -Joseph M. Shunia, Aug 13 2023
