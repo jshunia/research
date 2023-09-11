@@ -15,3 +15,5 @@ binomial(n, k) = floor((2^n (π + 2 i log(i exp(-(2 i ((1 + 2^n)^n/2^(n k)) π) 
 binomial(2n, n) = floor((4^n (π + 2 i log(i exp(-(2 i ((1 + 4^n)^(2 n) / 4^(n n)) π) / 4^n))))/(4 π)), -Joseph M. Shunia, Aug 13 2023
 
 binomial(2n, n) = floor((((n+1)^(n*(n+1))-1)/((n+1)^n-1) * (n+1)^(-(n-1)))^n) mod (n+1)^n, -Joseph M. Shunia, Sep 11 2023.
+
+binomial(2n,n) = floor(((n+1)^(2*n-1) / ((n+1)^n - 1))^n) mod (n+1)^n, -Joseph M. Shunia, Sep 11 2023.
