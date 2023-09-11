@@ -1,1 +1,2 @@
 multinomial(d,n,k) = floor((((d+1)^(n*(d+1))-1)/((d+1)^(n)-1))^(n) / (d+1)^(n*k)) mod (d+1)^n, for n > 0 and 0 <= k <= n*d, where d is the degree of the univariate polynomial in the multinomial expansion. -Joseph M. Shunia, Aug 7 2023
+multinomial(d,n,k) = floor(((d^(n*d)-1)/(d^(n+k)-d^k))^n) mod d^n, -Joseph M. Shunia, Aug 7 2023
