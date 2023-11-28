@@ -21,3 +21,12 @@ binomial(2n, n) = floor(((n+1)^(2*n-1) / ((n+1)^n - 1))^n) mod (n+1)^n, -Joseph 
 binomial(n, k) = floor(((2^(2n) - 1) / (2^(n+k) - 2^k))^n) mod 2^n, for n > 0 and 0 <= k <= n. -Joseph M. Shunia, Sep 11 2023.
 
 binomial(n, k) = floor((2^(n-k) + 1/2^k)^(n)) mod 2^n, for n > 0 and 0 <= k <= n. -Joseph M. Shunia, Aug 10 2023.
+
+binomial(n, k) = 2^n (π - 2 arctan(cot(π ((1 + 2^n)^n / 2^(n k) + arctan(cot((1 + 2^n)^n / 2^(n k) π)) / π - 1/2) / 2^n))) / (2 π), Aug 13 2023.
+
+binomial(n, k) = (2^n (π + 2 i log(i e^(-(2 i ((1+2^n)^n/2^(n k)) π)/2^n))))/(4 π), -Joseph M. Shunia, Aug 13 2023.
+
+binomial(n, k) = (((1+2^n)^n mod 2^(n k)) - ((1+2^n)^n mod 2^(n k + n))) / 2^(n k), -Joseph M. Shunia, Sep 2023.
+
+binomial(2n, n) = (i (log(e^(i 2^(1 - 2 n^2) (1 + 4^n)^(2 n) π)) - 4^n log(e^(i 2^(1 - 2 n (1 + n)) (1 + 4^n)^(2 n) π))))/(2 π), Sep 2023.
+
