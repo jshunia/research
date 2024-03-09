@@ -1,4 +1,4 @@
-$\binom{n-k}{k} = \floor{\frac{(2^n+4^n)^k}{2^{n^2}}} \bmod{2^n}$
+$\binom{n-k}{k} = \left\lfloor \frac{(2^n+4^n)^k}{2^{n^2}} \right\rfloor \bmod{2^n}$
 - Joseph M. Shunia, March 9 2024
 
 Let $F_n$ denote the $n$-th Fibonacci number.
