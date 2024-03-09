@@ -1,0 +1,4 @@
+binomial(2 n, n) = (4^n cos(i n log(2))^(2 n) + tan^(-1)(cot((4^n cos(i n log(2))^(2 n)) π)) / π - 1/2) - 4^n (cos(i n log(2))^(2 n) + tan^(-1)(cot(cos(i n log(2))^(2 n) π)) / π - 1/2), -Joseph M. Shunia, Jan 28 2023.
+binomial(2 n, n) = (4^n cosh(n log(2))^(2 n) + tan^(-1)(cot((4^n cosh(n log(2))^(2 n)) π)) / π - 1/2) - 4^n (cosh(n log(2))^(2 n) + tan^(-1)(cot(cosh(n log(2))^(2 n) π)) / π - 1/2), -Joseph M. Shunia, Jan 28 2023.
+binomial(2 n, n) = (4^n (π - 2 tan^(-1)(cot(π cosh^(2 n)(n log(2))))) + 2 tan^(-1)(cot(π 4^n cosh^(2 n)(n log(2)))) - π)/(2 π), -Joseph M. Shunia, Jan 29, 2023.
+binomial(2 n, n) = (4^n (π - 2 tan^(-1)(cot(π T_n(5/4)^(2 n)))) + 2 tan^(-1)(cot(π 4^n T_n(5/4)^(2 n))) - π)/(2 π), where T_n(x) is the n-th Chebyshev polynomial of the first kind evaluated at x., -Joseph M. Shunia, Jan 29, 2023.
